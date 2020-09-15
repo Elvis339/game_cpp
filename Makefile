@@ -1,8 +1,8 @@
-OBJS = main.cpp acceleratingSprite.cpp engine.cpp group.cpp keyboardeventlistener.cpp level.cpp player.cpp sprite.cpp spritesheet.cpp tile.cpp tileset.cpp
+OBJS = main.cpp engine.cpp keyboardeventlistener.cpp level.cpp player.cpp sprite.cpp spritesheet.cpp tile.cpp tileset.cpp
 
 CC = g++
 
-COMPILER_FLAGS = -w
+COMPILER_FLAGS = -w -std=c++11
 
 LINKER_FLAGS = -lSDL2 -lSDL2_image
 
